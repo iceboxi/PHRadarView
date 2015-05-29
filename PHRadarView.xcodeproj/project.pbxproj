@@ -14,6 +14,7 @@
 		2F5A68361B183A1E001A9F82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5A68351B183A1E001A9F82 /* Images.xcassets */; };
 		2F5A68391B183A1E001A9F82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F5A68371B183A1E001A9F82 /* LaunchScreen.xib */; };
 		2F5A68451B183A1E001A9F82 /* PHRadarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A68441B183A1E001A9F82 /* PHRadarViewTests.m */; };
+		2F5A68501B183A44001A9F82 /* PHRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A684F1B183A44001A9F82 /* PHRadarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2F5A683E1B183A1E001A9F82 /* PHRadarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHRadarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5A68431B183A1E001A9F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F5A68441B183A1E001A9F82 /* PHRadarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHRadarViewTests.m; sourceTree = "<group>"; };
+		2F5A684E1B183A44001A9F82 /* PHRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHRadarView.h; sourceTree = "<group>"; };
+		2F5A684F1B183A44001A9F82 /* PHRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHRadarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				2F5A682D1B183A1E001A9F82 /* AppDelegate.m */,
 				2F5A682F1B183A1E001A9F82 /* ViewController.h */,
 				2F5A68301B183A1E001A9F82 /* ViewController.m */,
+				2F5A684E1B183A44001A9F82 /* PHRadarView.h */,
+				2F5A684F1B183A44001A9F82 /* PHRadarView.m */,
 				2F5A68321B183A1E001A9F82 /* Main.storyboard */,
 				2F5A68351B183A1E001A9F82 /* Images.xcassets */,
 				2F5A68371B183A1E001A9F82 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F5A68311B183A1E001A9F82 /* ViewController.m in Sources */,
+				2F5A68501B183A44001A9F82 /* PHRadarView.m in Sources */,
 				2F5A682E1B183A1E001A9F82 /* AppDelegate.m in Sources */,
 				2F5A682B1B183A1E001A9F82 /* main.m in Sources */,
 			);
